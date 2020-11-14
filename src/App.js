@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import SignInSide from './Components/SigninSide';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export const MyContext = React.createContext();
+//export let number = React.createContext(45);
+
+export default class App extends Component {
+   
+
+
+    render() {
+        return (
+            <div>
+                <SignInSide />
+           </div>
+        )
+    }
 }
-
-export default App;

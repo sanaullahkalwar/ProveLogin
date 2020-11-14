@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
+.bg{
+  background-color: aquamarine;
+  min-height: 600px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  color: brown;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
